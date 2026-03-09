@@ -1,0 +1,5 @@
+ALTER TABLE tasks
+    ALTER COLUMN created_at TYPE TIMESTAMP;
+
+ALTER TABLE tasks
+    ALTER COLUMN updated_at TYPE TIMESTAMP;
